@@ -1,7 +1,9 @@
 # Angular Bootstrap
 
 
-Application example using [Angular 12](https://angular.io/) and [bootstrap](https://www.npmjs.com/package/bootstrap) and the [@ng-bootstrap/ng-bootstrap](https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap) libraries.
+Application example built with [Angular 12](https://angular.io/) and adding the Bootstrap CSS framework using the [bootstrap](https://www.npmjs.com/package/bootstrap) and [@ng-bootstrap/ng-bootstrap](https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap) libraries.
+
+This post was made on my [blog]() in portuguese and on the [DEV Community]().
 
 Available in:
 
@@ -24,16 +26,20 @@ Before you start, you need to install and configure the tools:
 * [git](https://git-scm.com/)
 * [Node.js and npm](https://nodejs.org/)
 * [Angular CLI](https://angular.io/cli)
+* IDE (e.g. [Visual Studio Code](https://code.visualstudio.com/))
 
 
 
 ## Getting started
 
 
-**1.** Create an application with the Angular base structure using the `@angular/cli` com with the route file and the SCSS style format.
+### Create the Angular application
+
+
+**1.** Let's create the application with the Angular base structure using the `@angular/cli` with the route file and the SCSS style format.
 
 ```shell
-ng new angular-toastr
+ng new angular-bootstrap
 ? Would you like to add Angular routing? Yes
 ? Which stylesheet format would you like to use? SCSS   [ https://sass-lang.com/documentation/syntax#scss                ]
 CREATE angular-bootstrap/README.md (1062 bytes)
@@ -70,7 +76,7 @@ CREATE angular-bootstrap/src/app/app.component.ts (222 bytes)
 npm install bootstrap bootstrap-icons
 ```
 
-**3.** Configure the `bootstrap` and `bootstrap-icons` libraries. Change the `angular.json` file and add the `bootstrap.scss`, `bootstrap-icons.css` and `bootstrap.bundle.min.js` files as follows:
+**3.** Configure the `bootstrap` and `bootstrap-icons` libraries. Change the `angular.json` file and add the `bootstrap.scss`, `bootstrap-icons.css` and `bootstrap.bundle.min.js` files as below.
 
 ```json
 "styles": [
@@ -89,7 +95,7 @@ npm install bootstrap bootstrap-icons
 npm install @ng-bootstrap/ng-bootstrap@next
 ```
 
-**5.** Import the `@ng-bootstrap/ng-bootstrap` modules. Change the `app.module.ts` file and add the lines below.
+**5.** Import the `@ng-bootstrap/ng-bootstrap` module. Change the `app.module.ts` file and add the lines as below.
 
 ```typescript
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -101,7 +107,7 @@ imports: [
 ],
 ```
 
-**6.** Remove the contents of the `AppComponent` class from the `src/app/app.component.ts` file and import the service and create the method as follows:
+**6.** Remove the contents of the `AppComponent` class from the `src/app/app.component.ts` file. Import the `NgbModal` service and create the `open` method as below.
 
 ```typescript
 import { Component } from '@angular/core';
@@ -124,14 +130,13 @@ export class AppComponent {
 }
 ```
 
-**7.** Remove the contents of the `src/app/app.component.html` file and add the buttons as follows:
+**7.** Remove the contents of the `src/app/app.component.html` file. Add some components as below:
 
 ```html
-
 <nav class="navbar navbar-expand-sm navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-      <h1>Angular Toastr</h1>
+      <h1>Angular Bootstrap</h1>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -216,11 +221,35 @@ export class AppComponent {
 </ng-template>
 ```
 
-**8.** Run the application with the command:
+**8.** Run the application with the command below.
 
 ```shell
 npm start
+
+> angular-bootstrap@1.0.0 start
+> ng serve
+
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names         |      Size
+vendor.js           | vendor        |   3.38 MB
+styles.css          | styles        | 255.86 kB
+polyfills.js        | polyfills     | 128.56 kB
+scripts.js          | scripts       |  76.94 kB
+main.js             | main          |  22.81 kB
+runtime.js          | runtime       |   6.59 kB
+
+                    | Initial Total |   3.86 MB
+
+Build at: 2021-06-27T21:28:22.756Z - Hash: 122b9fa4d57b962e7bcc - Time: 21933ms
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
 ```
+
+**9.** Ready! Access the URL `http://localhost:4200/` and check if the application is working.
 
 
 
