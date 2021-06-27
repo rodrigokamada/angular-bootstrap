@@ -251,6 +251,8 @@ Build at: 2021-06-27T21:28:22.756Z - Hash: 122b9fa4d57b962e7bcc - Time: 21933ms
 
 **9.** Ready! Access the URL `http://localhost:4200/` and check if the application is working.
 
+![Angular Bootstrap](docs/images/angular-bootstrap.png)
+
 
 
 ## Cloning the application
