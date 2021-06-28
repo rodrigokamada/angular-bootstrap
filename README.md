@@ -130,7 +130,7 @@ export class AppComponent {
 }
 ```
 
-**7.** Remove the contents of the `src/app/app.component.html` file. Add some components as below:
+**7.** Remove the contents of the `src/app/app.component.html` file. Add some components as below.
 
 ```html
 <nav class="navbar navbar-expand-sm navbar-light bg-light">
