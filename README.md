@@ -3,7 +3,7 @@
 
 Application example built with [Angular 12](https://angular.io/) and adding the Bootstrap CSS framework using the [bootstrap](https://www.npmjs.com/package/bootstrap) and [@ng-bootstrap/ng-bootstrap](https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap) libraries.
 
-This post was made on my [blog]() in portuguese and on the [DEV Community]().
+This post was made on my [blog](https://rodrigo.kamada.com.br/blog/adicionando-o-framework-de-css-bootstrap-em-uma-aplicacao-angular) in portuguese and on the [Hacker Noon](https://hackernoon.com/using-travis-ci-to-host-an-angular-app-on-github-pages-f8x35pj).
 
 Available in:
 
