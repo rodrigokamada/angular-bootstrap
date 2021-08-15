@@ -264,7 +264,6 @@ git clone git@github.com:rodrigokamada/angular-bootstrap.git
 npm ci
 ```
 
-
 **3.** Run the application.
 
 ```shell
