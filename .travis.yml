@@ -6,7 +6,7 @@ notifications:
 language: node_js
 
 node_js:
-  - 14
+  - 16
 
 before_script:
   - npm install
@@ -23,4 +23,4 @@ deploy:
   github_token: $GITHUB_TOKEN
   local_dir: dist/angular-bootstrap
   on:
-    branch: master
+    branch: main
