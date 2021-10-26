@@ -63,6 +63,7 @@ CREATE angular-bootstrap/src/app/app.component.html (23809 bytes)
 CREATE angular-bootstrap/src/app/app.component.spec.ts (1090 bytes)
 CREATE angular-bootstrap/src/app/app.component.ts (222 bytes)
 ✔ Packages installed successfully.
+    Successfully initialized git.
 ```
 
 **2.** Install the `bootstrap` and `bootstrap-icons` libraries.
