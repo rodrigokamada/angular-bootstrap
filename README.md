@@ -247,7 +247,7 @@ Build at: 2021-06-27T21:28:22.756Z - Hash: 122b9fa4d57b962e7bcc - Time: 21933ms
 
 **9.** Ready! Access the URL `http://localhost:4200/` and check if the application is working. See the application working on [GitHub Pages](https://rodrigokamada.github.io/angular-bootstrap/) and [Stackblitz](https://stackblitz.com/edit/angular12-bootstrap).
 
-![Angular Bootstrap](https://res.cloudinary.com/rodrigokamada/image/upload/v1636720395/Blog/angular-bootstrap/angular-bootstrap_qc8fil.png)
+![Angular Bootstrap](https://res.cloudinary.com/rodrigokamada/image/upload/v1636720395/Blog/angular-bootstrap/angular-bootstrap.png)
 
 
 
