@@ -129,7 +129,7 @@ export class AppComponent {
 **7.** Remove the contents of the `src/app/app.component.html` file. Add some components as below.
 
 ```html
-<nav class="navbar navbar-expand-sm navbar-light bg-light">
+<nav class="navbar navbar-expand-xl navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
       <h1>Angular Bootstrap</h1>
