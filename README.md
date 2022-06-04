@@ -1,7 +1,7 @@
 # Angular Bootstrap
 
 
-Application example built with [Angular](https://angular.io/) 13 and adding the Bootstrap CSS framework using the [bootstrap](https://www.npmjs.com/package/bootstrap) and [@ng-bootstrap/ng-bootstrap](https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap) libraries.
+Application example built with [Angular](https://angular.io/) 14 and adding the Bootstrap CSS framework using the [bootstrap](https://www.npmjs.com/package/bootstrap) and [@ng-bootstrap/ng-bootstrap](https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap) libraries.
 
 This tutorial was posted on my [blog](https://rodrigo.kamada.com.br/blog/adicionando-o-framework-de-css-bootstrap-em-uma-aplicacao-angular) in portuguese and on the [DEV Community](https://dev.to/rodrigokamada/adding-the-bootstrap-css-framework-to-an-angular-application-2k40) in english.
 
