@@ -1,7 +1,7 @@
 # Angular Bootstrap
 
 
-Application example built with [Angular](https://angular.io/) 14 and adding the Bootstrap CSS framework using the [bootstrap](https://www.npmjs.com/package/bootstrap) and [@ng-bootstrap/ng-bootstrap](https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap) libraries.
+Application example built with [Angular](https://angular.io/) 15 and adding the Bootstrap CSS framework using the [bootstrap](https://www.npmjs.com/package/bootstrap) and [@ng-bootstrap/ng-bootstrap](https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap) libraries.
 
 This tutorial was posted on my [blog](https://rodrigo.kamada.com.br/blog/adicionando-o-framework-de-css-bootstrap-em-uma-aplicacao-angular) in portuguese and on the [DEV Community](https://dev.to/rodrigokamada/adding-the-bootstrap-css-framework-to-an-angular-application-2k40) in english.
 
@@ -246,7 +246,7 @@ Build at: 2021-06-27T21:28:22.756Z - Hash: 122b9fa4d57b962e7bcc - Time: 21933ms
 ✔ Compiled successfully.
 ```
 
-**9.** Ready! Access the URL `http://localhost:4200/` and check if the application is working. See the application working on [GitHub Pages](https://rodrigokamada.github.io/angular-bootstrap/) and [Stackblitz](https://stackblitz.com/edit/angular14-bootstrap).
+**9.** Ready! Access the URL `http://localhost:4200/` and check if the application is working. See the application working on [GitHub Pages](https://rodrigokamada.github.io/angular-bootstrap/) and [Stackblitz](https://stackblitz.com/edit/angular15-bootstrap).
 
 ![Angular Bootstrap](https://res.cloudinary.com/rodrigokamada/image/upload/v1636720395/Blog/angular-bootstrap/angular-bootstrap.png)
 
