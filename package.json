@@ -1,7 +1,7 @@
 {
   "name": "angular-bootstrap",
   "version": "1.0.0",
-  "description": "Application example built with Angular 14 and adding the Bootstrap CSS framework using the bootstrap and @ng-bootstrap/ng-bootstrap libraries.",
+  "description": "Application example built with Angular 15 and adding the Bootstrap CSS framework using the bootstrap and @ng-bootstrap/ng-bootstrap libraries.",
   "author": "Rodrigo Kamada <rodrigo@kamada.com.br> (https://github.com/rodrigokamada)",
   "license": "MIT",
   "private": true,
